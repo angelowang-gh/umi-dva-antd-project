@@ -13,7 +13,5 @@
 ##### 开始+开始+开始
 
 - 1.克隆下来 git clone https://github.com/lucas270/umi-dva-antd-project.git
-
 - 2.安装依赖 npm install
-
 - 3.运行起来 npm start
