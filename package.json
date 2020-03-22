@@ -13,7 +13,9 @@
   "dependencies": {
     "@ant-design/icons-react": "^2.0.1",
     "classnames": "^2.2.6",
-    "react-document-title": "^2.0.3"
+    "react": "^16.13.1",
+    "react-document-title": "^2.0.3",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",

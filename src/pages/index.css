@@ -1,7 +1,7 @@
 .welcome {
   height: 328px;
-  background: url(../assets/yay.jpg) no-repeat center 0;
-  background-size: 388px 328px;
+  background: url(http://img.zhiding.cn/4/302/liRgU1PSEDqWI_600.png) no-repeat center top;
+  background-size: 50% auto;
 }
 .btns{
   text-align: center;

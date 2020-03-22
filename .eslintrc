@@ -46,7 +46,8 @@
     "no-plusplus":"off",
     "array-callback-return":[1],
     "no-shadow":[1],
-    "react/jsx-one-expression-per-line":[0]
+    "react/jsx-one-expression-per-line":[0],
+    "space-before-function-paren": 0
   },
   "parserOptions": {
     "ecmaFeatures": {
