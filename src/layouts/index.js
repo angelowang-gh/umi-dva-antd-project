@@ -9,7 +9,7 @@ const { Sider, Content } = Layout;
 
 function BasicLayout(props) {
   const pageTitle = () => {
-    return '知识-Umi Pro';
+    return 'angelowang';
   };
 
   const { children } = props;
@@ -44,12 +44,22 @@ function BasicLayout(props) {
                   </Link>
                 </Menu.Item>
               </Menu.SubMenu>
+              
               <Menu.Item key="/">
                 <Link to="/">
                   <Icon type="upload" />
                   <span>首页</span>
                 </Link>
               </Menu.Item>
+
+              <Menu.Item key = "ThemeSwitcher">
+                < Link to = "/ThemeSwitcher/ThemeSwitcher" >
+                  <Icon type="upload" />
+                  <span>主题切换</span>
+                </Link>
+              </Menu.Item>
+
+
             </Menu>
           </Sider>
           <Content style={{ padding: 24, background: '#fff' }}>

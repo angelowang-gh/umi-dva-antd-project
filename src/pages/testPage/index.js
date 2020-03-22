@@ -1,9 +1,7 @@
 import React from 'react'; // 这行必须写，不然报错，可能是eslint搞事情。
 import { connect } from 'dva'; // connect用于组件连接models层数据
 import classNames from 'classNames'; // 需要多个class时或要逻辑计算后决定是否要class，可以用这个插件
-import {
-  Form, Button, Row, Col,
-} from 'antd';
+import { Form, Button, Row, Col } from 'antd';
 import styles from './index.less';
 
 /** classNames的用法
@@ -66,14 +64,19 @@ const TestPage = (props) => {
       </Col>
       <Col ms={24} md={8} lg={8}>
 
-        <Button type="primary" onClick={addClick} className={classNames(styles.btn, { [styles.btnColor]: 4 > 3 })}>没经过后台的+1</Button>
+        <Button
+          type="primary"
+          onClick={addClick}
+          className={classNames(styles.btn, { [styles.btnColor]: 4 > 3 })}
+        >没经过后台的+1
+        </Button>
 
         <span className={styles['override-ant-btn-primary']}>
           <Button type="primary" onClick={showShopping}>查看后台返回的数据</Button>
         </span>
-
       </Col>
-    </Row>);
+    </Row>
+  );
 };
 
 function mapStateToProps(state) {
