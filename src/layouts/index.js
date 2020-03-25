@@ -32,7 +32,10 @@ function BasicLayout(props) {
         <Layout style={{ marginTop: 64 }}>
 
           {/* 侧边栏 */}
-          <Sider trigger={null} collapsible>
+          <Sider
+            // trigger={null} //设置null为隐藏导航底部折叠按钮，注释代码显示切换按钮
+            collapsible     // 可收缩菜单
+            >
             {/* 导航菜单 */}
             <Menu theme="dark" mode="inline" defaultSelectedKeys={['testPage']}>
               
